@@ -34,7 +34,7 @@ namespace PlotView {
  */
 
 /*! \class PlotViewPlugin
-    \version 0.3.dev
+    \version 0.4.dev
     \brief
 
     \todo Document this more explicitly.

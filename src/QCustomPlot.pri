@@ -50,8 +50,8 @@ APPLICATION_TARGET = QCustomPlot
 # VERSION INFORMATION #
 #######################
 VER_MAJ      = 0
-VER_MIN      = 1
-VER_PAT      = 2
+VER_MIN      = 4
+VER_PAT      = 0
 VERSION      = $${VER_MAJ}.$${VER_MIN}.$${VER_PAT}
 DEFINES     += 'VER_MAJ=$${VER_MAJ}' 'VER_MIN=$${VER_MIN}' 'VER_PAT=$${VER_PAT}' 'VERSION=$${VERSION}'
 
