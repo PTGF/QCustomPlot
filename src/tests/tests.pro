@@ -16,4 +16,4 @@
 
 TEMPLATE = subdirs
 
-SUBDIRS  = auto manual
+SUBDIRS  = QCustomPlot

@@ -15,22 +15,25 @@
 # along with this program.  If not, see http://www.gnu.org/licenses/.
 
 include(../../PTGF.pri)
+include(../../QCustomPlot.pri)
 
 QT       += testlib
 TEMPLATE  = app
 
 CONFIG(debug, debug|release) {
-  TARGET = $${APPLICATION_TARGET}ManualTestsD
+  TARGET = $${APPLICATION_TARGET}QCustomPlotAutoTestsD
 } else {
-  TARGET = $${APPLICATION_TARGET}ManualTests
+  TARGET = $${APPLICATION_TARGET}QCustomPlotAutoTests
 }
 
-SOURCES += \
-    manual.cpp
-HEADERS +=
-FORMS   +=
 
-LIBS    += -L$$quote($${BUILD_PATH}/core/lib/$${DIR_POSTFIX}) -lCore$${LIB_POSTFIX}
+SOURCES  += QCustomPlot.cpp
+
+HEADERS  +=
+
+
+#LIBS    += -L$$quote($${BUILD_PATH}/plugins/PlotView/$${DIR_POSTFIX}) -lPlotView$${LIB_POSTFIX}
+#LIBS    += -L$$quote($${BUILD_PATH}/plugins/BarChartView/$${DIR_POSTFIX}) -lBarChartView$${LIB_POSTFIX}
 
 win32:target.path = /
 else:target.path  = /bin
