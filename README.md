@@ -1,7 +1,6 @@
 # QCustomPlot Plugins for PTGF
 
-## Introduction
-Provides plot and bar graph plugins to PTGF plugin views.
+This repository provides 2D plot and bar graph data visualization plugins to the Parallel Tools GUI Framework.
 
 ## Releases
 See <https://github.com/PTGF/QCustomPlot/releases> for current releases.
@@ -9,7 +8,7 @@ See <https://github.com/PTGF/QCustomPlot/releases> for current releases.
 ## Installation
 See the wiki <https://github.com/PTGF/QCustomPlot/wiki> for detailed installation instructions.
 
-## TODO
+## To Do
 For upcoming features, please see our issue tracker is located at <https://github.com/PTGF/QCustomPlot/issues>
 
 ## Links
