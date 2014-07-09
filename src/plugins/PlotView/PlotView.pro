@@ -16,6 +16,10 @@
 
 include(../plugins.pri)
 
+greaterThan(QT_MAJOR_VERSION, 4) {
+  QT += printsupport
+}
+
 CONFIG(debug, debug|release) {
   TARGET            = PlotViewD
 } else {
