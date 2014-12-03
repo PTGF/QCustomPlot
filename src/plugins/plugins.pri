@@ -24,7 +24,15 @@ TEMPLATE      = lib
 CONFIG       += plugin plugin_with_soname
 CONFIG       += depend_includepath
 
-win32:target.path   = /
-else:target.path   = /lib
+win32:target.path = /
+else:{
+  exists( /usr/lib64 ) {
+       message( "Configuring for /lib64 bit library path..." )
+       target.path  = /lib64
+  } else {
+       message( "Configuring for /lib library path..." )
+       target.path  = /lib
+  }
+}
 
 INSTALLS     += target
