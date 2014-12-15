@@ -1,2 +1,8 @@
 *.user
 *.autosave
+*.so
+*.a
+*.o
+moc_*
+ui_*
+
